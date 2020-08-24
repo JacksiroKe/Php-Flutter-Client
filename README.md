@@ -1,13 +1,5 @@
-# Flutter Client PHP Backend
-
+# PHP Flutter Client
 ## App Demonstrating the use of Flutter and PHP.
-
-* App Logo Created Using [Logo Maker](http://logomakr.com)
-* For Hosting used [000webhost](https://hafinse.000webhostapp.com)
-
-## Built With
-
-* [Flutter](https://flutter.io) - Cross Platform App Development Framework
 
 ## Screenshots
 
@@ -23,13 +15,13 @@
 <br/>
 
 ## How to use this App.
-* Host the sample included inside [phpbackend](https://github.com/harsh159357/flutter_client_php_backend/tree/master/phpbackend) on preffered web hosting
-* Create a table inside your database using [FlutterClientPhpBackend.sql](https://github.com/harsh159357/flutter_client_php_backend/blob/master/phpbackend/FlutterClientPhpBackend.sql)
-* If you are using your own website just edit the following constant inside [constants.dart](https://github.com/harsh159357/flutter_client_php_backend/blob/master/lib/utils/constants.dart)
+* Host the sample included inside [phpbackend](https://github.com/JacksiroKe/Php-Flutter-Client/tree/master/phpbackend) on preffered web hosting
+* Create a table inside your database using [FlutterClientPhpBackend.sql](https://github.com/JacksiroKe/Php-Flutter-Client/blob/master/phpbackend/FlutterClientPhpBackend.sql)
+* If you are using your own website just edit the following constant inside [constants.dart](https://github.com/JacksiroKe/Php-Flutter-Client/blob/master/lib/utils/constants.dart)
 
       static const String API_BASE_URL = "https://hafinse.000webhostapp.com";
 
-* Make sure to edit [DBOperations.php](https://github.com/harsh159357/flutter_client_php_backend/blob/master/phpbackend/DBOperations.php) and change following things -
+* Make sure to edit [DBOperations.php](https://github.com/JacksiroKe/Php-Flutter-Client/blob/master/phpbackend/DBOperations.php) and change following things -
 
     private $host = 'your_host';
     private $user = 'your_user_name';
@@ -55,7 +47,7 @@
 * Rest API Integration.
 * Store and Retrieve values from Shared Preference.
 
-### Its Android CounterPart [Click Here](https://github.com/harsh159357/android_client_php_backend)
+### Its Android CounterPart [Click Here](https://github.com/JacksiroKe/Php-Flutter-Client)
 
 ### If you are aware of [Postman](https://www.getpostman.com/) you can use [Postman Collection](https://www.getpostman.com/collections/80394d2fc7c2aed05cc5) for Rest API used in this repo
 
